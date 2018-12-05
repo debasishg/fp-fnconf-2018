@@ -1,2 +1,24 @@
-*.class
+.class
 *.log
+.history
+
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/activator-sbt*
+
+.env
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# vim swap files
+*.swp
+.*.swp
